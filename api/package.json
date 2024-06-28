@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "An api for a basic website",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm i --omit=dev && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charlesobird/website-and-api-template.git"
+  },
+  "author": "Charles Bird",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/charlesobird/website-and-api-template/issues"
+  },
+  "homepage": "https://github.com/charlesobird/website-and-api-template#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
